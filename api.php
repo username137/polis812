@@ -37,7 +37,7 @@ class Api
     static function editPost($action, $posts, $postId = 0, $title = '', $textBody = '')
     {
         if ($action == 'add') {
-            $posts[] = ['id' => count($posts) + 1, 'title' => $title, 'body' => $textBody];
+            $posts[] = ['postId' => count($posts) + 1, 'title' => $title, 'body' => $textBody];
             return $posts;
         } elseif ($action == 'edit') {
             $userId = $posts[$postId - 1]['userId'];
