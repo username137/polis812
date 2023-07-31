@@ -22,11 +22,15 @@
 <br>
 Массив был из 99 элементов, а теперь из 100.
 <br>
+<br>
+<br>
+<br>
 <b>Api::editPost('remove', $posts, $id);</b>
 <br>
 <img width="394" alt="Снимок экрана 2023-07-31 в 16 58 51" src="https://github.com/username137/polis812/assets/98607874/563eec65-cd7b-43c4-9dd9-6b417a65b5b4">
 <br>Удаление поста под номером 98
-
+<br>
+<br>
 <br>
 <br>
 <b>Api::editPost('edit', $posts, $id, $title, $textBody);</b>
