@@ -20,6 +20,7 @@
 <br>
 <img width="421" alt="Снимок экрана 2023-07-31 в 17 29 54" src="https://github.com/username137/polis812/assets/98607874/dd614011-93ba-4125-9373-3430414b6816">
 <br>
+Массив был из 99 элементов, а теперь из 100.
 <br>
 <b>Api::editPost('remove', $posts, $id);</b>
 <br>
